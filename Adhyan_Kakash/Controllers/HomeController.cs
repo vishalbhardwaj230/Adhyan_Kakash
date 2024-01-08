@@ -19,13 +19,13 @@ namespace Adhyan_Kakash.Controllers
 
         public IActionResult Index()
         {
-            KakshServices _kakshServices = new KakshServices();
-            List<string> courseNames = _kakshServices.FuncCourses()
-                .Select(x => x.CourseName)
-                .ToList();
+            //KakshServices _kakshServices = new KakshServices();
+            //List<string> courseNames = _kakshServices.FuncCourses()
+            //    .Select(x => x.CourseName)
+            //    .ToList();
 
-            // Pass the course names to the view using ViewBag
-            ViewBag.CourseNames = courseNames;
+            //// Pass the course names to the view using ViewBag
+            //ViewBag.CourseNames = courseNames;
 
             return View();
         }
@@ -39,19 +39,6 @@ namespace Adhyan_Kakash.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
-        }
-        [HttpPost]
-        public IActionResult _Layout()
-        {
-            KakshServices _kakshServices = new KakshServices();
-            List<string> courseNames = _kakshServices.FuncCourses()
-                .Select(x => x.CourseName)
-                .ToList();
-
-            // Pass the course names to the layout using ViewBag
-            ViewBag.CourseNames = courseNames;
-
             return View();
         }
 

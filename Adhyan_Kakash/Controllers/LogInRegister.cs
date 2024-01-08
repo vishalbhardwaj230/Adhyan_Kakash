@@ -8,62 +8,31 @@ namespace Adhyan_Kakash.Controllers
 {
     public class LogInRegister : Controller
     {
-        private readonly KakshServices _KakshServices;
-        
-        
         
         [HttpGet]
-
         public IActionResult Registration()
         {
             return View();
         }
+        
         [HttpPost]
-        public IActionResult Registration(StudentModel studentModel)
+        public IActionResult Registration(Student studentModel)
         {
-        StudentDBContext _studentDBContext = new StudentDBContext();
-            Student student = new Student();
-            {
-                student.StudentId = "224";
-                student.StudentName = studentModel.Stname;
-                student.FatherName = studentModel.FaName;
-                student.Password = studentModel.Pass;
-                student.Mail = studentModel.Email;
-                student.Phone = studentModel.Phone;
-
-            }
-            _studentDBContext.Students.Add(student);
-            _studentDBContext.SaveChanges();
-            
+            KakshServices kaksh = new KakshServices();
+            kaksh.SaveData(studentModel);            
             return View();
         }
         [HttpGet]
         public IActionResult LogIn()
         {
-           
-
             return View();
         }
 
         [HttpPost]
-        public IActionResult LogIn(string sname, string pass)
+        public IActionResult LogIn(Student chkdata)
         {
-            StudentDBContext context = new StudentDBContext();
-            if (ModelState.IsValid)
-
-            {
-                var user = context.Students.Where(x => x.StudentName == sname).FirstOrDefault();
-                if (user != null)
-                {
-                    if (user.Password == pass)
-                    {
-                        // Set the user's email in the session.
-                        return RedirectToAction("AboutUs", "Home");
-
-                    }
-
-                }
-            }
+            KakshServices kaksh = new KakshServices();
+            kaksh.CheckData(chkdata);
             return RedirectToAction("AboutUs", "Home");
         }
 

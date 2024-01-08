@@ -1,0 +1,878 @@
+﻿.footer-widget.footer-contact .wpcf7 form .wpcf7-response-output {
+    margin: 0;
+}
+
+.footer-widget.footer-contact .wpcf7-not-valid-tip {
+    margin: 15px 0;
+}
+
+.footer-widget.footer-contact input[type="email"] {
+    font-size: 14px;
+    min-height: 51px;
+    padding: 6px 6px 6px 15px;
+    margin: 0;
+    border: 1px solid #e9ecef;
+    width: 100%;
+    border-radius: 5px;
+    color: #685f78;
+}
+
+.footer_subscription {
+    position: relative;
+}
+
+.footer-widget.footer-contact input.wpcf7-form-control.has-spinner.wpcf7-submit.btn.btn-primary.footer-subbtn {
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    padding: 8px 15px;
+    font-size: 14px;
+    min-height: 30px;
+}
+
+.footer_subscription .wpcf7-spinner {
+    position: absolute;
+    top: 5px;
+    right: -70px;
+}
+
+.footer-widget.footer-contact input[type="email"]:focus-visible {
+    outline: none;
+}
+
+.footer-widget.footer-contact input[type="email"]::-webkit-input-placeholder {
+    color: #685f78;
+}
+
+.footer-widget.footer-contact input[type="email"]::-moz-placeholder {
+    color: #685f78;
+}
+
+.footer-widget.footer-contact input[type="email"]:-ms-input-placeholder {
+    color: #685f78;
+}
+
+.footer-widget.footer-contact input[type="email"]::-ms-input-placeholder {
+    color: #685f78;
+}
+
+.footer-widget.footer-contact input[type="email"]::placeholder {
+    color: #685f78;
+}
+
+.footer_addr {
+    max-width: 230px;
+}
+
+.sidebar-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .sidebar-right ul li {
+        margin-bottom: 20px;
+    }
+
+        .sidebar-right ul li:last-child {
+            margin-bottom: 0;
+        }
+
+        .sidebar-right ul li a {
+            color: #685f78;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+    .sidebar-right ul.theme-latest-posts li:before {
+        display: none;
+    }
+
+    .sidebar-right ul li:before {
+        color: var(--dreamslms_primary_color);
+        content: "";
+        width: 7px;
+        height: 7px;
+        background: var(--dreamslms_primary_color);
+        border-radius: 50px;
+        padding: 0;
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+        margin-right: 8px;
+    }
+
+    .sidebar-right ul li a:hover {
+        color: var(--dreamslms_primary_color);
+    }
+
+.sidebar-right .tagcloud a {
+    background-color: var(--dreamslms_primary_color_opacity_more);
+    border-radius: 5px;
+    color: #685f78;
+    padding: 5px 10px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    font-size: 14px !important;
+    border: 1px solid var(--dreamslms_primary_color_opacity_more);
+    display: inline-block;
+    font-weight: 500;
+}
+
+    .sidebar-right .tagcloud a:hover {
+        background-color: var(--dreamslms_primary_color_opacity);
+        border-color: var(--dreamslms_primary_color_opacity);
+        color: var(--dreamslms_secondary_color);
+    }
+
+    .sidebar-right .tagcloud a:last-child {
+        margin-bottom: 0;
+    }
+
+.sidebar-right .latest-posts li a:before {
+    display: none;
+}
+
+.sidebar-right a.posts-date img {
+    margin-right: 6px;
+}
+
+.sidebar-right .latest-posts .post-info h4 a {
+    font-weight: 600;
+}
+
+.sidebar-right .latest-posts .post-info p img {
+    margin-right: 6px;
+}
+
+.blog-single-post .post-author img {
+    height: 30px;
+}
+
+.tags_single_blog h5.pro-title {
+    font-size: 22px;
+    color: var(--dreamslms_secondary_color);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.tags_single_blog a {
+    background-color: var(--dreamslms_primary_color_opacity_more);
+    border-radius: 5px;
+    color: #685f78;
+    padding: 5px 10px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    font-size: 14px !important;
+    border: 1px solid var(--dreamslms_primary_color_opacity_more);
+    display: inline-block;
+    font-weight: 500;
+}
+
+    .tags_single_blog a:hover {
+        background-color: var(--dreamslms_primary_color_opacity);
+        border-color: var(--dreamslms_primary_color_opacity);
+        color: var(--dreamslms_secondary_color);
+    }
+
+.new-comment {
+    border: 1px solid #e9ecef;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    background: #fff;
+}
+
+    .new-comment h4.pro-title {
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .new-comment p.form-submit {
+        margin-bottom: 0;
+    }
+
+    .new-comment label {
+        color: #685F78;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+
+.archive.tag {
+    background-color: unset;
+    border-radius: unset;
+    color: var(--dreamslms_secondary_color);
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    border: none;
+    display: block;
+    font-weight: 500;
+}
+
+.blog-nothing-found h3 {
+    color: #0B0B0B;
+    font-weight: 700;
+}
+
+    .blog-nothing-found h3 span {
+        color: var(--dreamslms_primary_color);
+    }
+
+.post-author img {
+    height: 30px;
+}
+
+.product-content .course-name h4 {
+    text-transform: capitalize;
+}
+
+.product-img .price h3 .text-decoration-none span {
+    text-decoration: none;
+    color: var(--dreamslms_primary_color);
+    font-size: 20px;
+}
+
+.product-img .price h3 span {
+    font-weight: 700;
+}
+
+.lms-page li.active a {
+    background-color: var(--dreamslms_primary_color);
+    border-color: var(--dreamslms_primary_color);
+    color: #fff;
+}
+
+.lms-page li a {
+    margin-right: 15px;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    color: #685f78;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #fff;
+}
+
+    .lms-page li a:hover {
+        background-color: var(--dreamslms_primary_color);
+        color: #fff;
+        border: 1px solid var(--dreamslms_primary_color);
+    }
+
+.blog-comments .comments-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.blog-comments, .fr-latest-t-content .tags {
+    padding-top: 1.5rem;
+}
+
+    .blog-comments .comments-list li {
+        clear: both;
+        background: #fff;
+        border: 1px solid #e9ecef;
+        padding: 1.5rem;
+        border-radius: 10px;
+    }
+
+.comments-list li.comment .comment {
+    margin-bottom: 0;
+    margin-top: 0;
+    position: relative;
+}
+
+.blog-comments .comments-list li .comment-author {
+    left: 0;
+    position: absolute;
+}
+
+.blog-comments .comments-list li img.avatar {
+    height: 58px;
+    width: 58px;
+    border-radius: 58px;
+}
+
+.comments-list li.comment .comment .comment-block {
+    position: relative;
+    flex: 1;
+    padding-left: 80px;
+}
+
+.single-post .blog-comments .comment-by {
+    margin-bottom: 15px;
+}
+
+.comments-list .comment-block p {
+    margin-bottom: 15px;
+    color: #685F78;
+}
+
+.blog-comments .comments-list a.comment-reply-link {
+    color: #685F78;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 0px;
+    background: #E7E8EA;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+    .blog-comments .comments-list a.comment-reply-link i {
+        font-size: 10px;
+        margin-right: 0.5rem;
+        margin-left: 0;
+    }
+
+.single-post .blog-comments .pro-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    border: none;
+    padding: 0;
+}
+
+.single-post .blog-comments .comment-by .blog-author-name a {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.single-post .blog-comments .comment-by .blog-author-name {
+    display: block;
+    margin: 0px;
+    text-transform: capitalize;
+}
+
+    .single-post .blog-comments .comment-by .blog-author-name a,
+    .single-post .blog-comments .comment-by .blog-author-name .date {
+        display: block;
+        width: 100%;
+    }
+
+.blog-comments .comments-list a.comment-reply-link:hover {
+    background: #ff3448;
+    color: #fff;
+}
+
+.blog-comments .pro-content .comment-respond {
+    margin-bottom: 30px;
+    padding: 1.5rem;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.single-post .comment-respond #reply-title {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+a#cancel-comment-reply-link {
+    color: #ff3448;
+}
+
+.post-type-archive .tutor-card {
+    background-color: transparent;
+    margin-bottom: 1.5rem;
+}
+
+.tutor-course-filter .form-check-input[type=checkbox] {
+    border: 1px solid #e9ecef;
+    border-radius: 2px;
+}
+
+.tutor-course-filter .search-filter .filter-widget label {
+    font-size: 14px;
+    color: #685F78;
+    cursor: pointer;
+    font-weight: 400;
+    margin-left: 6px;
+}
+
+.tutor-course-filter .tutor-course-filter-nested-terms:last-child label,
+.tutor-course-filter .tutor-course-filter-nested-terms:last-child .form-check {
+    margin-bottom: 0 !important;
+}
+
+.tutor-course-filter .level_sidebar .form-check:last-child,
+.tutor-course-filter .level_sidebar .form-check:last-child label {
+    margin-bottom: 0 !important;
+}
+
+.tutor-course-search-field .search-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+    .tutor-course-search-field .search-group i {
+        position: absolute;
+        left: 9px;
+        color: var(--dreamslms_primary_color);
+    }
+
+    .tutor-course-search-field .search-group input[type=text] {
+        background: #FFFFFF;
+        border: 1px solid #e9ecef;
+        border-radius: 5px;
+        min-height: 46px;
+        padding-left: 30px;
+    }
+
+.product:hover .course-info .course-view p span {
+    color: #685F78;
+}
+
+.new-course .product:hover .course-info .course-view p span {
+    color: #fff;
+}
+
+.trend-course .product:hover .course-info .course-view p span {
+    color: #fff;
+}
+
+.show-filter .tutor-form-select {
+    border: 1px solid #e9ecef;
+    height: 46px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 20px;
+    font-size: 14px;
+    min-width: 200px;
+    background-position: right 0.25rem center;
+    line-height: 30px;
+}
+
+.clear-text a {
+    color: var(--dreamslms_primary_color);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+    .clear-text a:hover {
+        text-decoration: none;
+        color: #e72f41;
+    }
+
+.user-header .avatar img {
+    border-radius: 50%;
+}
+
+.card.overview-sec p:last-child {
+    margin-bottom: 0;
+}
+
+.instructor-detail h5 {
+    text-transform: capitalize;
+}
+
+.instructor_metainfo span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+    .instructor_metainfo span.text-white.ms-3 {
+        margin-left: 15px !important;
+    }
+
+.dreamslms-meta .tutor-color-secondary {
+    color: #fff;
+}
+
+.student-list .student-img img {
+    height: auto;
+}
+
+.card.education-sec .tutor-card.tutor-course-card {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.product .course-info p span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.product:hover .course-info p span {
+    color: #685F78;
+}
+
+.instructor-list .instructor-img img {
+    height: auto;
+}
+
+.sell-table-group h5 {
+    font-size: 16px;
+}
+
+.product-content.dashboard h3 {
+    line-height: normal;
+}
+
+    .product-content.dashboard h3 a {
+        font-size: 16px;
+    }
+
+span.review_crname {
+    color: #685f78;
+    font-size: 15px;
+    display: block;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+span.fortect.me-2 {
+    margin-left: 0.5rem;
+}
+
+ul.includes li:before {
+    content: "\e94d";
+    display: block;
+    position: absolute;
+    left: 0;
+    font-family: 'tutor';
+    color: var(--dreamslms_primary_color);
+}
+
+.include-sec ul li {
+    font-size: 14px;
+    margin-bottom: 0;
+    border-width: 0 !important;
+}
+
+.login_sign .header-navbar-rht li:first-child a {
+    min-width: 120px;
+    padding: 10px 15px;
+    background: var(--dreamslms_header_login_backcolor);
+    border-radius: 50px;
+    text-align: center;
+    border: 3px solid var(--dreamslms_header_login_bordercolor);
+    font-size: 15px;
+    min-height: 50px;
+    color: var(--dreamslms_header_login_color);
+}
+
+    .login_sign .header-navbar-rht li:first-child a:hover {
+        background-color: var(--dreamslms_header_login_backhovercolor);
+        border-color: var(--dreamslms_header_login_backhovercolor);
+        color: var(--dreamslms_header_login_hovercolor);
+    }
+
+.login_sign .header-navbar-rht li:nth-child(2) a {
+    border-radius: 50px;
+    text-align: center;
+    font-size: 15px;
+    color: var(--dreamslms_header_register_color);
+    text-transform: capitalize;
+    font-weight: 500;
+    min-width: 120px;
+    border: 3px solid #b4a7f5;
+    padding: 10px 15px;
+    min-height: 50px;
+}
+
+.header .login_sign .header-navbar-rht li:nth-child(2) a:hover {
+    background-color: var(--dreamslms_header_register_backhovercolor);
+    border-color: var(--dreamslms_header_register_backhovercolor);
+    color: var(--dreamslms_header_register_hovercolor);
+}
+
+.header .header-navbar-rht li:nth-child(2):hover a {
+    color: var(--dreamslms_header_register_hovercolor);
+}
+
+.add-header-bg .login_sign .header-navbar-rht li:first-child a {
+    background: #b4a7f5;
+    border-color: #B4A7F5;
+    color: #fff;
+}
+
+    .add-header-bg .login_sign .header-navbar-rht li:first-child a:hover {
+        background: #fff;
+        color: var(--dreamslms_secondary_color);
+        border: 3px solid #B4A7F5;
+    }
+
+.video-details h2 {
+    text-transform: uppercase;
+}
+
+.header-navbar-rht.logged-in li:first-child a {
+    min-width: unset;
+    padding: 0;
+    background: transparent;
+    border-radius: unset;
+    text-align: center;
+    border: unset;
+}
+
+.header-navbar-rht.logged-in .users.dropdown-menu a {
+    border-top: 1px solid transparent;
+    padding: 10px 15px;
+    color: #212529;
+}
+
+    .header-navbar-rht.logged-in .users.dropdown-menu a:hover {
+        background-color: #e9ecef;
+        color: #FF875A;
+        border: unset;
+    }
+
+ul#tutor-lesson-sidebar-tab-content li {
+    border-bottom: 1px solid #e9ecef;
+}
+
+    ul#tutor-lesson-sidebar-tab-content li:last-child {
+        border: 1px solid #e9ecef;
+        margin: 0;
+    }
+
+ul#tutor-lesson-sidebar-tab-content li {
+    padding: 15px;
+}
+
+ul#tutor-lesson-sidebar-tab-content .tutor-accordion-item-body .tutor-lessons-under-topic {
+    padding-bottom: 15px;
+}
+
+    ul#tutor-lesson-sidebar-tab-content .tutor-accordion-item-body .tutor-lessons-under-topic:last-child {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+ul#tutor-lesson-sidebar-tab-content span.lesson_space {
+    margin-left: 0;
+    color: var(--dreamslms_secondary_color);
+    font-weight: 600;
+}
+
+.tutor-single-page-top-bar .card-body {
+    padding: 10px;
+}
+
+    .tutor-single-page-top-bar .card-body h2 {
+        font-size: 16px;
+    }
+
+        .tutor-single-page-top-bar .card-body h2 a {
+            font-size: 16px;
+        }
+
+.lesson_title h3 {
+    font-size: 20px;
+    color: var(--dreamslms_secondary_color);
+    margin-bottom: 15px;
+}
+
+.tutor-next-previous-pagination-wrap a {
+    font-size: 16px;
+}
+
+.tutor-lesson-content-area .tutor-video-player-wrapper {
+    margin-bottom: 20px;
+}
+
+.lesson-widget-group .card {
+    border-radius: 5px;
+}
+
+.card .card-header {
+    border-radius: 5px;
+}
+
+.tutor-lesson-content-area p {
+    color: var(--dreamslms_secondary_color);
+}
+
+#tutor-withdraw-account-set-form .tutor-bs-col-12.tutor-bs-col-lg-4:last-child {
+    margin-bottom: 0 !important;
+}
+
+.tutor-modal-body {
+    padding: 20px;
+}
+
+#tutor-earning-withdraw-modal .desc {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.tutor-purchase-history .tutor-wp-dashboard-filter .tutor-d-flex a.tutor-btn-outline-primary {
+    background: #E0E0E0;
+    border-color: #E0E0E0;
+    color: #685f78;
+    font-size: 14px;
+    padding: 12px 26px;
+    border-radius: 5px;
+    min-height: 50px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.tutor-purchase-history .tutor-wp-dashboard-filter .tutor-d-flex a.tutor-btn-primary {
+    background: var(--dreamslms_primary_color);
+    color: #FFF;
+    font-size: 14px;
+    padding: 12px 26px;
+    border-radius: 5px;
+    min-height: 50px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.tutor-purchase-history .tutor-wp-dashboard-filter .tutor-d-flex a:hover {
+    background: var(--dreamslms_primary_color);
+    color: #FFF;
+    border-color: var(--dreamslms_primary_color);
+}
+
+.tutor-form-control {
+    font-size: 14px;
+    min-height: 46px;
+    color: #685f78;
+}
+
+.tutor-purchase-history .tutor-wp-dashboard-filter .tutor-form-icon-reverse ~ .tutor-form-control {
+    border: 1px solid #e9ecef;
+}
+
+.tutor-dashboard-content .category-tab.tickets-tab-blk ul {
+    margin: 0 0 15px 0;
+}
+
+.tutor-dashboard-content-inner.my-wishlist .row-cols-lg-3 .tutor-card.tutor-course-card {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.profile-heading.social_heading {
+    padding: 25px 0;
+    border-bottom: unset;
+}
+
+#tutor-withdraw-account-set-form label {
+    margin-bottom: 0;
+}
+
+#tutor-withdraw-account-set-form .withdraw-method-form label {
+    margin-bottom: 0.5rem;
+    color: #685F78;
+    font-weight: 600;
+}
+
+#tutor-withdraw-account-set-form label span.text-muted {
+    font-size: 14px;
+}
+
+#tutor-withdraw-account-set-form p.withdraw-field-desc {
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+
+.tutor-dashboard-info-table .sell-group-img {
+    width: 112px;
+}
+
+.withdraw-page-current-balance i.tutor-icon-wallet {
+    color: var(--dreamslms_primary_color);
+}
+
+.breadcrumb-bar {
+    background-image: url('../images/b.png');
+    text-align: center;
+    position: relative;
+    padding: 50px 0;
+    background-color: rgba(250,246,246,0.9);
+}
+
+    .breadcrumb-bar:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #F7F7FF;
+        content: "";
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .breadcrumb-bar .page-breadcrumb ol {
+        justify-content: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    }
+
+    .breadcrumb-bar .breadcrumb-title {
+        margin-bottom: 15px;
+    }
+
+.tutor-dashboard-menu-question-answer.nav-item {
+    display: none;
+}
+
+ul.page-numbers {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+    ul.page-numbers li span, ul.page-numbers li a {
+        margin-right: 15px;
+        border: 1px solid #e9ecef;
+        border-radius: 5px;
+        width: 40px;
+        height: 40px;
+        color: #685f78;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background-color: #fff;
+    }
+
+        ul.page-numbers li a:hover, ul span.page-numbers.current, ul li span.page-numbers.current {
+            background-color: var(--dreamslms_primary_color);
+            color: #fff;
+            border: 1px solid var(--dreamslms_primary_color);
+        }
+
+.my-wishlist .tutor-courses .tutor-card.tutor-course-card, .noContent {
+    display: none;
+}
+
+.load-more-btn {
+    text-align: center;
+    padding-bottom: 25px;
+}

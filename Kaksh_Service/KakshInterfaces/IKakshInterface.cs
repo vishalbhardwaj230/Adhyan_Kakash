@@ -5,7 +5,10 @@ namespace Kaksh_Service.KakshInterfaces
 {
    public interface IKakshInterface
     {
-        List<Course> FuncCourses();
-        List<Student> FuncStudents();
+       public List<Course> FuncCourses();
+        public List<Student> FuncStudents();
+        public void SaveData(Student student);
+
+        public string CheckData(Student student);
     }
 }
